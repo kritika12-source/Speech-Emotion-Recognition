@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.vscode/
+
+# Keep downloaded audio, data, and generated outputs out of version control.
+data/*
+!data/.gitkeep
+outputs/*
+!outputs/.gitkeep
+audio_samples/*
+!audio_samples/.gitkeep
